@@ -83,13 +83,13 @@ Output: नमस्ते
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/your-username/language-translator-fastapi-react.git
+git clone https://github.com/your-username/CodeAlpha_LanguageTranslator.git
 ```
 
 Move into project:
 
 ```bash
-cd language-translator-fastapi-react
+cd your-project-folder
 ```
 
 ---
