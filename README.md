@@ -75,3 +75,185 @@ Output: नमस्ते
 ### API
 
 - Google Cloud Translation API
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone repository
+
+```bash
+git clone https://github.com/your-username/language-translator-fastapi-react.git
+```
+
+Move into project:
+
+```bash
+cd language-translator-fastapi-react
+```
+
+---
+
+### 2. Backend setup
+
+Move into backend:
+
+```bash
+cd backend
+```
+
+Create virtual environment
+
+### Windows
+
+```bash
+python -m venv myenv
+myenv\Scripts\activate
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Create `.env`
+
+```env
+GOOGLE_TRANSLATE_API_KEY=your_google_cloud_api_key
+```
+
+Run backend
+
+```bash
+uvicorn main:app --reload
+```
+
+Backend runs at:
+
+```bash
+http://127.0.0.1:8000
+```
+
+---
+
+### 3. Frontend setup
+
+Open a new terminal
+
+Move into frontend
+
+```bash
+cd frontend
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run React
+
+```bash
+npm run dev
+```
+
+Frontend runs at:
+
+```bash
+http://localhost:5173
+```
+
+---
+
+## 🔑 Google Cloud Translation API Setup
+
+### Create Google Cloud project
+
+Open:
+
+https://console.cloud.google.com/
+
+Create a new project.
+
+---
+
+### Enable Cloud Translation API
+
+Go to:
+
+**APIs & Services → Library**
+
+Search:
+
+```bash
+Cloud Translation API
+```
+
+Enable it.
+
+---
+
+### Create API key
+
+Go to:
+
+**APIs & Services → Credentials**
+
+Create:
+
+```bash
+API Key
+```
+
+Copy the generated key.
+
+---
+
+### API restrictions
+
+Under your API key:
+
+Enable:
+
+```bash
+Cloud Translation API
+```
+
+Save.
+
+Then place the key inside:
+
+```bash
+backend/.env
+```
+
+---
+
+## 🌍 Supported Languages
+
+Examples:
+
+- English
+- Hindi
+- Malayalam
+- French
+- German
+
+More languages can be added easily by updating dropdown options.
+
+---
+
+## 🎯 Future Improvements
+
+Possible enhancements:
+
+- text-to-speech
+- language auto-detection
+- translation history
+- dark mode
+- favorite translations
+- deployment with Vercel + Render
+
+---
