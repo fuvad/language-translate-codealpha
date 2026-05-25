@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual env
+myenv/
+venv/
+.env
+
+# React
+node_modules/
+dist/
+
+# Vite
+.vite/
+
+# OS
+.DS_Store
+Thumbs.db
